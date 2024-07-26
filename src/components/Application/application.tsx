@@ -16,8 +16,8 @@ const Application = () => {
               <img
                 src="https://via.placeholder.com/200x200"
                 className="img-fluid"
-                alt="image placeholder"
-                title="image title"
+                alt="placeholder text"
+                title="title text"
               />
             </div>
           </div>

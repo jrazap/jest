@@ -27,8 +27,8 @@ describe("Application", () => {
     expect(paragraph_2).toBeInTheDocument();
 
     // Image 
-    const image_1 = screen.getByAltText("image placeholder");
-    const image_2 = screen.getByTitle("image title");
+    const image_1 = screen.getByAltText("placeholder text");
+    const image_2 = screen.getByTitle("title text");
     expect(image_1).toBeInTheDocument();
     expect(image_2).toBeInTheDocument();
 
