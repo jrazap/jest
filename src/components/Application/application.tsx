@@ -12,10 +12,10 @@ const Application = () => {
         </p>
         <div className="row">
           <div className="col-lg-6">
-            <div className="img-container">
+            <div className="img-container w-100 h-100">
               <img
-                src="https://via.placeholder.com/200x200"
-                className="img-fluid"
+                src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_640.jpg"
+                className="img-fluid w-100 h-100 cover"
                 alt="placeholder text"
                 title="title text"
               />
@@ -59,8 +59,6 @@ const Application = () => {
                 id="location"
                 className="form-select"
                 aria-label="Location"
-                value="New York"
-                onChange={() => {}}
               >
                 <option value="">Select...</option>
                 <option value="New York">New York</option>
